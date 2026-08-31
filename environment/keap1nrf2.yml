@@ -1,0 +1,35 @@
+# Steps 01-04 and the 07_analysis scripts.
+#
+# Pinned to numpy 1.x because chai_lab 0.5.2 requires numpy~=1.21 and torch~=2.3.1.
+# HADDOCK3 requires numpy 2.x and therefore lives in keap1nrf2-haddock.yml; the two
+# stages exchange PDB files only and are never imported together.
+#
+# PLIP is installed by setup.sh rather than here: plip 2.4.0 shells out to
+# `pip install requests` while building, which fails under pip's build isolation.
+#
+#   bash setup.sh          # creates both environments
+name: keap1nrf2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  # PLIP needs the openbabel python bindings, which only ship via conda-forge
+  - openbabel=3.1.*
+  - numpy=1.26.*
+  - pip:
+      - torch==2.3.1
+      - chai_lab==0.5.2
+      # chai_lab 0.5.2 asks for transformers~=4.44, but 4.5x refuses to
+      # torch.load the ESM weights unless torch>=2.6 (CVE-2025-32434),
+      # which contradicts chai_lab's own torch~=2.3.1 pin.
+      - transformers==4.44.2
+      - biopython==1.83
+      - pandas==2.2.*
+      - tqdm
+      - requests
+      - lxml
+      # used by 07_analysis
+      - scipy
+      - openpyxl
+      - matplotlib

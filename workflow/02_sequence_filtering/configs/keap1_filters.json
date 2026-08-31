@@ -1,0 +1,13 @@
+{
+  "_comment": "Positions are Nrf2 residue numbers; the peptide C-terminus is anchored at Leu84 for every length (10-16 aa).",
+  "anchor_residue": 84,
+  "steps": [
+    {"name": "1.incl E79/E82 in ERHKY", "type": "position", "residues": [79, 82], "allow": "ERHKY"},
+    {"name": "2.excl T80 in ASV",       "type": "position", "residues": [80], "deny": "ASV"},
+    {"name": "3.incl G81 = G",          "type": "position", "residues": [81], "allow": "G"},
+    {"name": "4.excl res77 = N",        "type": "position", "residues": [77], "deny": "N"},
+    {"name": "5.excl res83 = H",        "type": "position", "residues": [83], "deny": "H"},
+    {"name": "6.excl DG/DS/DT/DN",      "type": "motif",    "deny": ["DG", "DS", "DT", "DN"]},
+    {"name": "7.excl ETGE",             "type": "motif",    "deny": ["ETGE"]}
+  ]
+}

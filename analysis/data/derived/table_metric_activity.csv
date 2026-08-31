@@ -1,0 +1,16 @@
+metric,favorable,rank_of_active,top_ranked,top_ranked_inhibition_1uM,rho_1uM,p_1uM,rho_10uM,p_10uM,q_1uM,q_10uM
+Chai-1 ipTM,higher,1,Comp11,96.0,-0.167,0.395,-0.091,0.647,0.632,0.849
+Chai-1 aggregate score,higher,1,Comp11,96.0,-0.158,0.421,-0.079,0.689,0.632,0.849
+Chai-1 receptor-peptide ipTM,higher,2,Comp3,0.0,-0.099,0.615,-0.052,0.792,0.769,0.849
+Chai-1 pTM,higher,2,Comp3,0.0,-0.168,0.394,-0.061,0.758,0.632,0.849
+HADDOCK score,lower,9,Comp25,0.0,-0.114,0.563,-0.193,0.325,0.768,0.542
+DockQ,higher,16,Comp25,0.0,-0.185,0.347,-0.327,0.09,0.632,0.225
+Buried surface area,higher,12,Comp25,0.0,-0.204,0.298,-0.275,0.156,0.632,0.334
+E_vdw,lower,5,Comp25,0.0,-0.242,0.214,-0.332,0.085,0.632,0.225
+E_elec,lower,5,Comp14,5.0,-0.026,0.895,-0.201,0.306,0.926,0.542
+E_desolv,lower,24,Comp25,0.0,-0.082,0.679,-0.021,0.915,0.783,0.915
+Fnat,higher,15-18,Comp6,3.0,0.018,0.926,-0.055,0.783,0.926,0.849
+i-RMSD,lower,18,Comp4,14.0,-0.254,0.192,-0.355,0.064,0.632,0.225
+l-RMSD,lower,18,Comp4,14.0,-0.209,0.285,-0.341,0.076,0.632,0.225
+il-RMSD,lower,18,Comp4,14.0,-0.222,0.255,-0.346,0.071,0.632,0.225
+RMSD,lower,15,Comp25,0.0,-0.307,0.112,-0.439,0.019,0.632,0.225

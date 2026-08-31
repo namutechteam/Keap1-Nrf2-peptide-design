@@ -1,0 +1,46 @@
+assign (resi 380 and segid A)
+(
+       (resi 10 and segid B)
+        or
+       (resi 11 and segid B)
+) 2.0 2.0 0.0
+
+assign (resi 415 and segid A)
+(
+       (resi 7 and segid B)
+) 2.0 2.0 0.0
+
+assign (resi 483 and segid A)
+(
+       (resi 7 and segid B)
+) 2.0 2.0 0.0
+
+assign (resi 6 and segid B)
+(
+       (resi 525 and segid A)
+        or
+       (resi 530 and segid A)
+) 2.0 2.0 0.0
+
+assign (resi 7 and segid B)
+(
+       (resi 415 and segid A)
+        or
+       (resi 483 and segid A)
+        or
+       (resi 508 and segid A)
+        or
+       (resi 555 and segid A)
+) 2.0 2.0 0.0
+
+assign (resi 8 and segid B)
+(
+       (resi 602 and segid A)
+) 2.0 2.0 0.0
+
+assign (resi 10 and segid B)
+(
+       (resi 380 and segid A)
+        or
+       (resi 363 and segid A)
+) 2.0 2.0 0.0

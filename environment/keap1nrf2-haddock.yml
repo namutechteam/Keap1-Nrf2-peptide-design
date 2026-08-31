@@ -1,0 +1,14 @@
+# Step 05: HADDOCK3 only.
+#
+# Separate from keap1nrf2 because haddock3 2024.10.0b7 pins numpy==2.* while
+# chai_lab 0.5.2 pins numpy~=1.21. Installing haddock3 also downloads the CNS binary.
+#
+#   conda env create -f keap1nrf2-haddock.yml
+name: keap1nrf2-haddock
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - haddock3==2024.10.0b7

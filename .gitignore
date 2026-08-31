@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# pipeline outputs, not the example data under example/
+/chai_out/
+/runs/
+/haddock_runs/
+/filter_out/
+*.log

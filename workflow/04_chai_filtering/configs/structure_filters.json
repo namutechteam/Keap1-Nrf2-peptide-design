@@ -1,0 +1,14 @@
+{
+  "_comment": "Hotspots are given in native Keap1 numbering; receptor_start converts them to the prediction's own numbering, since Chai-1 renumbers the receptor from 1. The receptor construct is the Keap1 Kelch domain starting at residue 326, so Ser363 appears as index 38.",
+  "peptide_chain": "B",
+  "receptor_start": 326,
+  "intra_hbond_cutoff": 3.0,
+  "hotspots": [
+    {"residue": 363, "name": "Ser363", "interaction": "hbond"},
+    {"residue": 380, "name": "Arg380", "interaction": "hbond"},
+    {"residue": 382, "name": "Asn382", "interaction": "hbond"},
+    {"residue": 415, "name": "Arg415", "interaction": "hbond"},
+    {"residue": 483, "name": "Arg483", "interaction": "hbond"},
+    {"residue": 508, "name": "Ser508", "interaction": "hbond"}
+  ]
+}

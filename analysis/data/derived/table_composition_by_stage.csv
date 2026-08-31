@@ -1,0 +1,7 @@
+stage,n,D77_percent,E78_percent,E79_percent,T80_percent,G81_percent,E82_percent,F83_percent
+Generated,700000,80.72,1.59,19.36,56.59,99.97,88.29,4.94
+Unique sequences,530299,79.13,2.05,19.55,55.2,99.96,85.63,5.72
+Sequence filters 1-5,43146,98.64,2.24,91.45,97.53,100.0,98.14,6.13
+Sequence filter 6 (aspartimide),42106,98.63,2.28,91.45,97.83,100.0,98.2,6.14
+Sequence filter 7 (ETGE excluded),5118,94.45,2.27,29.64,82.12,100.0,85.15,5.2
+Structure-based selection,28,96.43,10.71,7.14,92.86,100.0,100.0,7.14
